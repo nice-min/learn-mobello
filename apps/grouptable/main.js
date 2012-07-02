@@ -7,8 +7,7 @@ $class('tau.demo.GroupTable2Controller').extend(tau.ui.SceneController).define({
   initScene: function () {
     var scene = this.getScene();
     var groupTable = new tau.ui.Table({
-      group: true,
-      styleClass: {section: 'sectionGroup'}
+      group: true
     });
     
     groupTable.add(new tau.ui.TableCell({title: 'apple', groupName: 'A'}));
