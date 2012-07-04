@@ -1,5 +1,5 @@
 /**
- * 그룹핑 테이블 예제
+ * 그룹핑 테이블 예제2
  */
 $class('tau.demo.GroupTableController').extend(tau.ui.SceneController).define({
   
